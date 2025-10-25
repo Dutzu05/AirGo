@@ -1,46 +1,48 @@
-✈️ AirGo – Airline Database System
+#✈️ AirGo – Airline Database System
 
-🧭 Overview
+#🧭 Overview
 
-AirGo is a relational database project designed to manage core operations of an airline company.
-It centralizes information about flights, aircraft, pilots, and cabin crew, ensuring structured data organization and efficient access.
+AirGo is a relational database system that models and manages the core operations of an airline company.
+It centralizes data about flights, aircraft, pilots, and cabin crew, ensuring consistency, scalability, and efficient access through a normalized schema.
 
-💡 Purpose
+3💡 Purpose
 
-Developed as part of the Informatics Certification at Liceul Teoretic “Avram Iancu”, Cluj-Napoca (2024), this project reflects both technical skills in SQL and a genuine passion for aviation.
-The goal was to design a clean, normalized database capable of supporting real airline operations.
+Developed as part of the Informatics Certification at Liceul Teoretic “Avram Iancu”, Cluj-Napoca (2024), this project demonstrates solid understanding of SQL database architecture and data modeling principles.
+The goal was to create a production-like database structure capable of supporting typical airline data workflows.
 
-⚙️ Key Concepts
+#⚙️ Core Concepts
 
-Relational data modeling and normalization
+Relational schema design with strong referential integrity
+Entity–Relationship (ER) modeling for logical data organization
+Normalization (up to 3NF) to minimize redundancy
+Constraint management (PRIMARY KEY, FOREIGN KEY, CHECK, NOT NULL)
+Data manipulation using standard DDL and DML SQL operations
 
-Entity–Relationship design
+#🧩 Database Entities
 
-Primary and foreign key constraints
+The system models several interrelated entities:
 
-Real-world data representation for aviation management
+PILOT – manages pilot data and flight experience
+STEWARDEZ – stores cabin crew information
+AVION – holds aircraft specifications and maintenance details
+CURSA – defines flights and their scheduling
+DISTRIBUIRE1 – links pilots and copilots to flights
+DISTRIBUIRE2 – assigns stewardesses to each flight
 
-🧩 Main Entities
+#🧠 Tools & Technologies
 
-Pilots – professional and personal data
+Oracle SQL / SQL Developer – database design and implementation
+ER Diagram Modeling Tools – schema visualization and analysis
+Oracle Academy educational framework – academy.oracle.com
 
-Crew Members – stewardess assignments
+#🔍 Features
 
-Aircraft – technical and operational details
+Logical and normalized airline database design
+Realistic relationships between flights, staff, and aircraft
+Enforced data consistency through constraints
+Example queries for management, reporting, and analysis
 
-Flights – schedules, destinations, and aircraft links
-
-🧠 Tools & Technologies
-
-Oracle SQL / SQL Developer
-
-ER Diagram Modeling Tools
-
-Standard SQL Constraints and Queries
-
-Project developed with support from https://academy.oracle.com/
-
-👤 Author
+#👤 Author
 
 Lușcă Vlad
 Project coordinated by Prof. Cristina Lupșa
