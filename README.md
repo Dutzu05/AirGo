@@ -38,6 +38,8 @@ ER Diagram Modeling Tools
 
 Standard SQL Constraints and Queries
 
+Project developed with support from https://academy.oracle.com/
+
 👤 Author
 
 Lușcă Vlad
