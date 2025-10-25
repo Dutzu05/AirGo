@@ -1,15 +1,13 @@
 
 # ✈️ AirGo – Airline Database System
 
-🧭 Overview
-
 AirGo is a relational database system that models and manages the core operations of an airline company.
 It centralizes data about flights, aircraft, pilots, and cabin crew, ensuring consistency, scalability, and efficient access through a normalized schema.
 
 
 ---
 
-💡 Purpose
+# 💡 Purpose
 
 Developed as part of the Informatics Certification at Liceul Teoretic “Avram Iancu”, Cluj-Napoca (2024), this project demonstrates solid understanding of SQL database architecture and data modeling principles.
 The goal was to create a production-like database structure capable of supporting typical airline data workflows.
@@ -17,7 +15,7 @@ The goal was to create a production-like database structure capable of supportin
 
 ---
 
-⚙️ Core Concepts
+# ⚙️ Core Concepts
 
 Relational schema design with strong referential integrity
 
@@ -33,7 +31,7 @@ Data manipulation using standard DDL and DML SQL operations
 
 ---
 
-🧩 Database Entities
+# 🧩 Database Entities
 
 The system models several interrelated entities:
 
@@ -53,7 +51,7 @@ DISTRIBUIRE2 – assigns stewardesses to each flight
 
 ---
 
-🧠 Tools & Technologies
+# 🧠 Tools & Technologies
 
 Oracle SQL / SQL Developer – database design and implementation
 
@@ -65,7 +63,7 @@ Oracle Academy educational framework – academy.oracle.com
 
 ---
 
-🔍 Features
+# 🔍 Features
 
 Logical and normalized airline database design
 
@@ -79,7 +77,7 @@ Example queries for management, reporting, and analysis
 
 ---
 
-👤 Author
+# 👤 Author
 
 Lușcă Vlad
 Project coordinated by Prof. Cristina Lupșa
